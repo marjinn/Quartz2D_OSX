@@ -12,6 +12,7 @@
 		15EEF9EE1A72EA0A00021182 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EEF9ED1A72EA0A00021182 /* Images.xcassets */; };
 		15EEF9F11A72EA0A00021182 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EEF9EF1A72EA0A00021182 /* MainMenu.xib */; };
 		15EEF9FD1A72EA0A00021182 /* Quartz2DosXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEF9FC1A72EA0A00021182 /* Quartz2DosXTests.m */; };
+		15EEFA081A72EB6700021182 /* myVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEFA071A72EB6700021182 /* myVIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		15EEF9F61A72EA0A00021182 /* Quartz2DosXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DosXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EEF9FB1A72EA0A00021182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EEF9FC1A72EA0A00021182 /* Quartz2DosXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DosXTests.m; sourceTree = "<group>"; };
+		15EEFA061A72EB6700021182 /* myVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myVIew.h; sourceTree = "<group>"; };
+		15EEFA071A72EB6700021182 /* myVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myVIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				15EEF9ED1A72EA0A00021182 /* Images.xcassets */,
 				15EEF9EF1A72EA0A00021182 /* MainMenu.xib */,
 				15EEF9E61A72EA0A00021182 /* Supporting Files */,
+				15EEFA061A72EB6700021182 /* myVIew.h */,
+				15EEFA071A72EB6700021182 /* myVIew.m */,
 			);
 			path = Quartz2DosX;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EEF9EC1A72EA0A00021182 /* main.m in Sources */,
+				15EEFA081A72EB6700021182 /* myVIew.m in Sources */,
 				15EEF9EA1A72EA0A00021182 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
