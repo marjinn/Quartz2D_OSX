@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15031B011A9BA2AE00B11EA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15031B001A9BA2AE00B11EA7 /* CoreGraphics.framework */; };
 		15EEF9EA1A72EA0A00021182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEF9E91A72EA0A00021182 /* AppDelegate.m */; };
 		15EEF9EC1A72EA0A00021182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEF9EB1A72EA0A00021182 /* main.m */; };
 		15EEF9EE1A72EA0A00021182 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EEF9ED1A72EA0A00021182 /* Images.xcassets */; };
 		15EEF9F11A72EA0A00021182 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EEF9EF1A72EA0A00021182 /* MainMenu.xib */; };
 		15EEF9FD1A72EA0A00021182 /* Quartz2DosXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEF9FC1A72EA0A00021182 /* Quartz2DosXTests.m */; };
 		15EEFA081A72EB6700021182 /* myVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EEFA071A72EB6700021182 /* myVIew.m */; };
+		15F04A301A9A7B1F00A84B68 /* drawingCode.c in Sources */ = {isa = PBXBuildFile; fileRef = 15F04A2F1A9A7B1F00A84B68 /* drawingCode.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15031B001A9BA2AE00B11EA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15031B021A9BA7F200B11EA7 /* drawingCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawingCode.h; sourceTree = "<group>"; };
 		15EEF9E31A72EA0A00021182 /* Quartz2DosX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DosX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EEF9E71A72EA0A00021182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15EEF9E81A72EA0A00021182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		15EEF9FC1A72EA0A00021182 /* Quartz2DosXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DosXTests.m; sourceTree = "<group>"; };
 		15EEFA061A72EB6700021182 /* myVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myVIew.h; sourceTree = "<group>"; };
 		15EEFA071A72EB6700021182 /* myVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myVIew.m; sourceTree = "<group>"; };
+		15F04A2F1A9A7B1F00A84B68 /* drawingCode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawingCode.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15031B011A9BA2AE00B11EA7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +67,7 @@
 		15EEF9DA1A72EA0A00021182 = {
 			isa = PBXGroup;
 			children = (
+				15031B001A9BA2AE00B11EA7 /* CoreGraphics.framework */,
 				15EEF9E51A72EA0A00021182 /* Quartz2DosX */,
 				15EEF9F91A72EA0A00021182 /* Quartz2DosXTests */,
 				15EEF9E41A72EA0A00021182 /* Products */,
@@ -86,6 +93,8 @@
 				15EEF9E61A72EA0A00021182 /* Supporting Files */,
 				15EEFA061A72EB6700021182 /* myVIew.h */,
 				15EEFA071A72EB6700021182 /* myVIew.m */,
+				15031B021A9BA7F200B11EA7 /* drawingCode.h */,
+				15F04A2F1A9A7B1F00A84B68 /* drawingCode.c */,
 			);
 			path = Quartz2DosX;
 			sourceTree = "<group>";
@@ -216,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EEF9EC1A72EA0A00021182 /* main.m in Sources */,
+				15F04A301A9A7B1F00A84B68 /* drawingCode.c in Sources */,
 				15EEFA081A72EB6700021182 /* myVIew.m in Sources */,
 				15EEF9EA1A72EA0A00021182 /* AppDelegate.m in Sources */,
 			);
@@ -404,6 +414,7 @@
 				15EEFA021A72EA0A00021182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15EEFA031A72EA0A00021182 /* Build configuration list for PBXNativeTarget "Quartz2DosXTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +423,7 @@
 				15EEFA051A72EA0A00021182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

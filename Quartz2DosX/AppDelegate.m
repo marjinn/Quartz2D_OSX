@@ -17,6 +17,17 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSArray* array = nil;
+    array = @[@"i",@"p",@"h",@"a",@"m"];
+    
+    NSLog(@"%@",
+          [array sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)]);
+    
+    NSLog(@"%@",[[NSString alloc] initWithData:[array sortedArrayHint]
+                                       encoding:NSUTF8StringEncoding]);
+    
+
+              
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
